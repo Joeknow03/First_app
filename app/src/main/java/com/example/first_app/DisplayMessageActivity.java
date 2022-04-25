@@ -13,6 +13,9 @@ public class DisplayMessageActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment()).commit();
+            /*
+            bla bla bla
+            * */
         }
     }
     @Override
